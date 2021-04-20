@@ -4,8 +4,6 @@ Load test project using Gatling
 
 ## What is Gatling?
 
----
-
 Gatling is a highly capable load testing tool. It is designed for ease of use, maintainability and high performance.
 
 Out of the box, Gatling comes with excellent support of the HTTP protocol that makes it a tool of choice for load 
@@ -14,8 +12,6 @@ testing any HTTP server. As the core engine is actually protocol agnostic, it is
 
 ## Why choose Gatling?
 
----
-
 I was the Software Quality Engineer at Electronic Arts Korea who is in charge of the test of our game server reliability
 and availability. Gatling has the Enterprise version called Gatling Frontline but an open source version is powerful to 
 test as well.  
@@ -23,12 +19,11 @@ test as well.
 
 ## Documentation
 
----
-
 In this project, I'm going to write the all progress to create the simple Gatling project. You can see the all steps 
 below links.
 
 
-| Category         |                         Link                    |
-|------------------|-------------------------------------------------|
-| Project Creation | [project-creation](./readme/project-creation.md)|
+| Category         |                         Link                     |
+|------------------|--------------------------------------------------|
+| Project Creation | [project-creation](docs/project-creation.md) |
+| Upgrade Gatling version | [Upgrade-gatling-3.5.1](docs/upgrade-gatling-3.5.1.md) |
