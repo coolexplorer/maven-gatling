@@ -59,3 +59,13 @@ Run the Maven project to get the plugins from the `pom.xml` file.
 Add the gatling command to run the script.
 
 ![gatling_maven_command](../images/gatling_maven_command.png)
+
+You can increase the usability if you set the framework for your project as Scala.
+1. Click the `Add Framework Support...` menu.
+![gatling_add_framework_menu](../images/gatling_add_framework_menu.png)
+
+2. Select the scala on the list.
+![gatling_add_framework](../images/gatling_add_framework.png)
+
+3. Can see the new menu when adding the scala class.
+![gatling_add_file](../images/gatling_file_add.png)
