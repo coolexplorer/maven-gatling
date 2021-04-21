@@ -67,11 +67,11 @@ $ mvn gatling:test
 
 ### Using Intellij 
 
-1. Open Run/Debug Configurations.
-![open_run_configuration](../images/intellij_run_configuration1.png)
+1. Open Run/Debug Configurations.  
+<img src="../images/intellij_run_configuration1.png" width="50%" height="50%">
 
-2. Select `maven` via `+` button.
-![select_maven_via_plus](../images/intellij_run_configuration2.png)
+2. Select `maven` via `+` button.  
+<img src="../images/intellij_run_configuration2.png" width="30%" height="30%">
 
-3. Fill in name and command like below.
-![add_gatling_run_command](../images/intellij_run_configuration3.png)
+3. Fill in name and command like below.  
+<img src="../images/intellij_run_configuration3.png" width="50%" height="50%">
