@@ -27,3 +27,4 @@ below links.
 |------------------|--------------------------------------------------|
 | Project Creation | [project-creation](docs/project-creation.md) |
 | Upgrade Gatling version | [Upgrade-gatling-3.5.1](docs/upgrade-gatling-3.5.1.md) |
+| Simple Simulation | [simple-simulation](docs/simple-simulation.md) |
