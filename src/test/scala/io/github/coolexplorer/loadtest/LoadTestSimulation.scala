@@ -12,12 +12,16 @@ class LoadTestSimulation extends Simulation {
   val httpProtocol = LoadTestProtocol.createHttpProtocol()
   val successfulRequestRate = Configuration.getSuccessfulRequestRate()
 
-  val loadProfile = LoadProfile()
+  val loadProfile = LoadProfile(
+    users = Configuration.users,
+    duration = Configuration.duration,
+    rampUpDuration = Configuration.rampUpDuration
+  )
 
   private def getSimulations(profile: LoadProfile): List[PopulationBuilder] = {
     List(
       LoadTestScenario.createScenario(profile)
-        .inject(rampUsers(loadProfile.users).during(profile.duration)).protocols(httpProtocol)
+        .inject(rampUsers(loadProfile.users).during(profile.rampUpDuration)).protocols(httpProtocol)
     )
   }
 
