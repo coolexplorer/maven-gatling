@@ -19,6 +19,6 @@ jobs:
       with:
         image: coolexplorer/maven-gatling
         registry: docker.io
-        dockerfile: kube-consul-registrator/Dockerfile
+        dockerfile: maven-gatling/Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
