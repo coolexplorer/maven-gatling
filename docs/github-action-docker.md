@@ -9,7 +9,7 @@ GitHub Actions help you automate tasks within your software development life cyc
 
 ## Add Github action yaml script
 
-I've created my script file simply using the [`Build and push Docker images`](https://github.com/marketplace/actions/build-and-push-docker-images) in the Github marketplace. 
+I've created my script file simply using the [`Build and push Docker images`](https://github.com/marketplace/actions/build-and-push-docker-images) and [`Docker Meta`](https://github.com/marketplace/actions/docker-meta) in the Github marketplace. 
 
 Added only 3 steps for building docker - Login dockerbug, Build and push, and Image digest.
 
