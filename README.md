@@ -12,9 +12,7 @@ testing any HTTP server. As the core engine is actually protocol agnostic, it is
 
 ## Why choose Gatling?
 
-I was the Software Quality Engineer at Electronic Arts Korea who is in charge of the test of our game server reliability
-and availability. Gatling has the Enterprise version called Gatling Frontline but an open source version is powerful to 
-test as well.  
+I am the Software Quality Engineer at Electronic Arts Korea who is in charge of the test of our game server reliability and availability. Gatling has the Enterprise version called Gatling Frontline but an open source version is powerful to test as well. But there is no various documents to refer to set up the load test environment. So, I'm going to write down my experience of what I've done when I tested the our game server. 
 
 
 ## Documentation
@@ -28,3 +26,12 @@ below links.
 | Project Creation | [project-creation](docs/project-creation.md) |
 | Upgrade Gatling version | [Upgrade-gatling-3.5.1](docs/upgrade-gatling-3.5.1.md) |
 | Simple Simulation | [simple-simulation](docs/simple-simulation.md) |
+| Create Github Action for docker image | [Github-Action-docker](docs/github-action-docker.md) |
+
+
+## Authors
+- Allen Kim - Initial work - [coolexplorer](https://github.com/coolexplorer)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
