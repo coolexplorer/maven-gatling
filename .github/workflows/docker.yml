@@ -21,7 +21,7 @@ jobs:
         id: meta
         uses: crazy-max/ghaction-docker-meta@v2
         with:
-          images: $GITHUB_REPOSITORY
+          images: coolexplorer/maven-gatling
       -
         name: Login to DockerHub
         if: github.event_name != 'pull_request'
