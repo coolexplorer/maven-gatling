@@ -15,6 +15,11 @@ testing any HTTP server. As the core engine is actually protocol agnostic, it is
 I am the Software Quality Engineer at Electronic Arts Korea who is in charge of the test of our game server reliability and availability. Gatling has the Enterprise version called Gatling Frontline but an open source version is powerful to test as well. But there is no various documents to refer to set up the load test environment. So, I'm going to write down my experience of what I've done when I tested the our game server. 
 
 
+## What is my goal?
+
+I'm going to set up the total load test environment to use varios tools. In this repository, make the basic load test script and load test profiles to use when you run it with CI/CD tools like Jenkins. 
+![load-test-architecture](images/load_test_architecture.png)
+
 ## Documentation
 
 In this project, I'm going to write the all progress to create the simple Gatling project. You can see the all steps 
