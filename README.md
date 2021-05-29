@@ -1,4 +1,5 @@
 [![dockeri.co](https://dockeri.co/image/coolexplorer/maven-gatling)](https://hub.docker.com/r/coolexplorer/maven-gatling)
+
 ![docker](https://github.com/coolexplorer/maven-gatling/workflows/docker/badge.svg)
 
 # maven-gatling
