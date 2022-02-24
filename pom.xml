@@ -13,7 +13,7 @@
 
     <scala.version>2.13.8</scala.version>
     <gatling.version>3.5.1</gatling.version>
-    <gatling-maven-plugin.version>3.1.2</gatling-maven-plugin.version>
+    <gatling-maven-plugin.version>4.1.1</gatling-maven-plugin.version>
   </properties>
 
   <dependencies>
